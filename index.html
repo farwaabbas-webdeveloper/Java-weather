@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>API Calling</h1>
+    <form
+      onsubmit="
+        getweather();
+        return false;
+      "
+    >
+      <input
+        type="text"
+        name="cityName"
+        id="cityName"
+        placeholder="Enter your City name"
+      />
+      <button type="Submit">Get</button>
+    </form>
+    <div id="weather"></div>
+    <script src="/index.js"></script>
+  </body>
+</html>
